@@ -1,0 +1,53 @@
+body{
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+}
+
+p {
+    margin:0;
+    padding: 4px;
+}
+
+.tile {
+    display: grid;
+    width: 30px;
+    height: 30px;
+    background-color: #b6dcfb;
+    text-align: center;
+    font-size: 17px;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+
+.bigTile {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 6px;
+    padding: 3px;
+}
+
+#sudoku-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 3px;
+    width: fit-content;
+    height: fit-content;
+    margin: 20px;
+}
+
+.selected {
+    background-color: #fbfbb6	
+}
+
+.given {
+    background-color: #86c5f9;
+}
+
+.hidden {
+    display: none;
+}
